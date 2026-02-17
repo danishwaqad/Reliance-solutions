@@ -18,8 +18,20 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
+            {/* Public folder ka path */}
+            <img
+              src="/img/reliance-icon.jpg" // Public folder ka direct path
+              alt="Reliance Logo"
+              style={{
+                height: "30px",
+                width: "auto",
+                marginRight: "8px",
+                display: "inline-block",
+                verticalAlign: "middle",
+              }}
+            />
             Reliance Solutions
-          </a>{" "}
+          </a>
         </div>
 
         <div
