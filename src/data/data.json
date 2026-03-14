@@ -1,184 +1,184 @@
 {
   "Header": {
-    "title": "We are legends",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Reliance Solutions",
+    "paragraph": "Web development, eBay & Amazon store setup, and e-commerce solutions. We build your online presence and grow your sales on marketplaces."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Reliance Solutions is a full-service digital agency specializing in web development and marketplace solutions. We build custom websites, set up and manage eBay and Amazon seller accounts, and help businesses sell online with professional listings, store design, and ongoing support. Our team combines technical expertise with e-commerce best practices to deliver results that drive growth.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Custom websites & e-commerce development",
+      "eBay & Amazon account setup & management",
+      "Product listing & catalog optimization",
+      "Dedicated support & training"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "SEO & digital marketing for online stores",
+      "Secure, fast, and mobile-friendly sites",
+      "Competitive pricing & on-time delivery",
+      "Trusted by sellers and businesses"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "E-commerce Website",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Amazon Seller Store",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "eBay Store Design",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Business Website",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Online Shopping Portal",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Marketplace Integration",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Product Listing & Catalog",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Web App & Dashboard",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Brand & Store Front",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
   "Services": [
     {
+      "icon": "fa fa-laptop",
+      "name": "Web Development",
+      "text": "Custom websites, business portals, and e-commerce sites built with modern technologies. Responsive design, fast loading, and easy content management so your business looks professional online."
+    },
+    {
+      "icon": "fa fa-barcode",
+      "name": "Amazon Seller Services",
+      "text": "Amazon Seller Central setup, product listing creation, FBA guidance, and store optimization. We help you list correctly, rank better, and manage your Amazon business efficiently."
+    },
+    {
+      "icon": "fa fa-shopping-cart",
+      "name": "eBay Store Management",
+      "text": "eBay store setup, listing creation, bulk listing tools, and store design. We optimize your eBay presence for visibility and sales with professional product photos and descriptions."
+    },
+    {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "WordPress & WooCommerce",
+      "text": "WordPress websites and WooCommerce online stores. From simple blogs to full shopping carts with payment gateways, inventory, and shipping—we build and maintain it for you."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-search",
+      "name": "SEO & Listing Optimization",
+      "text": "Search engine optimization for your website and marketplace listings. Better keywords, titles, and descriptions so customers find your products on Google, Amazon, and eBay."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-support",
+      "name": "Support & Training",
+      "text": "Ongoing technical support, updates, and training so you can manage your store and website. We guide you through Seller Central, eBay tools, and your own site dashboard."
     }
   ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Reliance Solutions built our company website and set up our Amazon store. Professional work and great communication. Our online sales have increased significantly.\"",
+      "name": "Sarah M."
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"We needed someone to handle our eBay listings and store design. They delivered on time and our store looks much more trustworthy. Highly recommend.\"",
+      "name": "James K."
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"From web development to Amazon FBA guidance, Reliance Solutions covered everything. Our business is now fully online and running smoothly.\"",
+      "name": "Ali R."
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Professional team and clear pricing. They built our e-commerce site and helped us list products on both eBay and Amazon. Great experience.\"",
+      "name": "Emma L."
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Reliance Solutions understood our needs from day one. Our new website and marketplace presence have brought in more customers and orders.\"",
+      "name": "David P."
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Best decision we made for our online business. Web development and Amazon services were top-notch. Will use them again for future projects.\"",
+      "name": "Nadia H."
     }
   ],
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
+      "name": "Project Lead",
       "job": "Director"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Web & Design",
+      "job": "Web Developer"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Marketplace Expert",
+      "job": "eBay & Amazon Specialist"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Client Success",
+      "job": "Support & Operations"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "Your Office Address, City, State, Zip",
+    "phone": "+1 000 000 0000",
+    "email": "info@reliancesolutions.com",
+    "facebook": "https://facebook.com/reliancesolutions",
+    "twitter": "https://twitter.com/reliancesolutions",
+    "youtube": "https://youtube.com/reliancesolutions"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-code",
+      "title": "Web Development",
+      "text": "Custom websites and web apps built with clean code, modern design, and mobile-first approach for your business."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-barcode",
+      "title": "Amazon Services",
+      "text": "Seller Central setup, product listings, FBA support, and store optimization to grow your Amazon sales."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-shopping-cart",
+      "title": "eBay Store Setup",
+      "text": "eBay store creation, bulk listing, store design, and management so you can sell effectively on eBay."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-rocket",
+      "title": "E-commerce Solutions",
+      "text": "Full online store development, payment integration, and marketplace connections for seamless selling."
     }
   ]
 }

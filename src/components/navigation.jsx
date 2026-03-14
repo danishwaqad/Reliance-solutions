@@ -18,6 +18,11 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
+            <img
+              src="/img/reliance-icon.jpg"
+              alt="Reliance Solutions"
+              className="navbar-brand-icon"
+            />
             Reliance Solutions
           </a>
         </div>
