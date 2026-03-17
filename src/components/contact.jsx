@@ -89,7 +89,7 @@ export const Contact = (props) => {
           <div className="container">
             <div className="row footer-content">
               <div className="col-md-4 footer-brand">
-                <h3>Reliance Solutions</h3>
+                <h3>Reliance Solution</h3>
                 <p>Professional solutions tailored to your business needs.</p>
               </div>
               <div className="col-md-2 footer-links">

@@ -1,5 +1,5 @@
 /* ============================================
-   Reliance Solutions - Professional Portfolio
+   Reliance Solution - Professional Portfolio
    Color palette: Slate dark #0f172a, Brand green #1e7a46, Light #f8fafc
    ============================================ */
 
@@ -337,6 +337,18 @@ header .intro-text {
   background: var(--gradient-primary);
   color: var(--color-white);
 }
+#services .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+#services .col-sm-6,
+#services .col-md-4 {
+  display: flex;
+}
+#services .service-desc {
+  max-width: 340px;
+  margin: 18px auto 0;
+}
 #services .section-title h2::after {
   background: rgba(255, 255, 255, 0.4);
   height: 4px;
@@ -358,12 +370,51 @@ header .intro-text {
   color: var(--color-white);
   border: 2px solid rgba(255, 255, 255, 0.3);
 }
+#services .service-card {
+  padding: 24px 16px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
 #services h3 {
   color: var(--color-white);
   font-weight: 500;
 }
 #services p {
   color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 991px) {
+  #services {
+    padding: 70px 0;
+  }
+  #services .col-md-4,
+  #services .col-sm-6 {
+    margin-bottom: 30px;
+  }
+  #services .service-desc {
+    max-width: 420px;
+  }
+}
+
+@media (max-width: 767px) {
+  #services {
+    padding: 60px 0;
+  }
+  #services i.fa {
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+    padding: 22px 0;
+  }
+  #services .service-desc h3 {
+    font-size: 18px;
+  }
+  #services .service-desc p {
+    font-size: 14px;
+  }
 }
 
 /* Portfolio / Gallery */

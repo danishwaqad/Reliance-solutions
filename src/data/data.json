@@ -1,21 +1,21 @@
 {
   "Header": {
-    "title": "Reliance Solutions",
-    "paragraph": "Web development, eBay & Amazon store setup, and e-commerce solutions. We build your online presence and grow your sales on marketplaces."
+    "title": "Reliance Solution",
+    "paragraph": "Experts in financial and operations management, investment consultancy, taxation, and business support services. We help individuals and organizations make informed decisions, manage risk, and grow with confidence."
   },
   "About": {
-    "paragraph": "Reliance Solutions is a full-service digital agency specializing in web development and marketplace solutions. We build custom websites, set up and manage eBay and Amazon seller accounts, and help businesses sell online with professional listings, store design, and ongoing support. Our team combines technical expertise with e-commerce best practices to deliver results that drive growth.",
+    "paragraph": "We are experts in Financial and Operations Management with deep experience across multinational and local organizations. Our commitment to continuous learning and development keeps us ahead of a rapidly evolving business environment, enabling us to provide cutting-edge, practical solutions for our clients. From taxation and investment advisory to complex projects and corporate governance, we support our clients at every stage of their financial and operational journey.",
     "Why": [
-      "Custom websites & e-commerce development",
-      "eBay & Amazon account setup & management",
-      "Product listing & catalog optimization",
-      "Dedicated support & training"
+      "Leadership team with 20+ years of diversified multinational experience",
+      "Strong background in financial audit, tax consultancy, and real estate management",
+      "Hands-on expertise in construction, operations, supply chain and corporate governance",
+      "Proven track record with mid and large-sized projects in Pakistan and abroad"
     ],
     "Why2": [
-      "SEO & digital marketing for online stores",
-      "Secure, fast, and mobile-friendly sites",
-      "Competitive pricing & on-time delivery",
-      "Trusted by sellers and businesses"
+      "Qualified professionals including ACCA, PhD in Developmental Finance, Engineering and MBA",
+      "Registered Tax Consultant (FBR) and active member of ACCA UK and Tax Bar",
+      "Experience in mergers & acquisitions, contract negotiations, and strategic planning",
+      "Client-centric approach focused on sustainable growth and long-term partnerships"
     ]
   },
   "Gallery": [
@@ -67,40 +67,40 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-laptop",
-      "name": "Web Development",
-      "text": "Custom websites, business portals, and e-commerce sites built with modern technologies. Responsive design, fast loading, and easy content management so your business looks professional online."
+      "icon": "fa fa-line-chart",
+      "name": "Financial Management & Feasibility Studies",
+      "text": "End-to-end financial management, feasibility studies, and business planning to assess viability, manage risk, and support informed investment decisions."
     },
     {
-      "icon": "fa fa-barcode",
-      "name": "Amazon Seller Services",
-      "text": "Amazon Seller Central setup, product listing creation, FBA guidance, and store optimization. We help you list correctly, rank better, and manage your Amazon business efficiently."
+      "icon": "fa fa-calculator",
+      "name": "Tax Filing & Bookkeeping",
+      "text": "Professional tax filing for individuals and corporations, bookkeeping, and compliance services delivered by registered tax consultants and experienced finance professionals."
     },
     {
-      "icon": "fa fa-shopping-cart",
-      "name": "eBay Store Management",
-      "text": "eBay store setup, listing creation, bulk listing tools, and store design. We optimize your eBay presence for visibility and sales with professional product photos and descriptions."
+      "icon": "fa fa-users",
+      "name": "Consultancy & Marketing Services",
+      "text": "Investment consultancy, strategic marketing, and advisory services focused on profitable asset classes and sustainable business growth."
     },
     {
-      "icon": "fa fa-wordpress",
-      "name": "WordPress & WooCommerce",
-      "text": "WordPress websites and WooCommerce online stores. From simple blogs to full shopping carts with payment gateways, inventory, and shipping—we build and maintain it for you."
+      "icon": "fa fa-building",
+      "name": "Construction & Real Estate Advisory",
+      "text": "Consultation for construction projects, commercial plazas, premium houses, and real estate management including rental space arrangements for banks and local and multinational brands."
     },
     {
-      "icon": "fa fa-search",
-      "name": "SEO & Listing Optimization",
-      "text": "Search engine optimization for your website and marketplace listings. Better keywords, titles, and descriptions so customers find your products on Google, Amazon, and eBay."
+      "icon": "fa fa-briefcase",
+      "name": "HR, Import/Export & Corporate Services",
+      "text": "Human resource services, import/export support, and corporate services to streamline operations, improve productivity, and support day-to-day business management."
     },
     {
       "icon": "fa fa-support",
-      "name": "Support & Training",
-      "text": "Ongoing technical support, updates, and training so you can manage your store and website. We guide you through Seller Central, eBay tools, and your own site dashboard."
+      "name": "IT Enabled & Call Center Solutions",
+      "text": "IT-enabled business support and call center services for local and international clients, including support for SMEs and financial institutions."
     }
   ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Reliance Solutions built our company website and set up our Amazon store. Professional work and great communication. Our online sales have increased significantly.\"",
+      "text": "\"Reliance Solution built our company website and set up our Amazon store. Professional work and great communication. Our online sales have increased significantly.\"",
       "name": "Sarah M."
     },
     {
@@ -110,7 +110,7 @@
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"From web development to Amazon FBA guidance, Reliance Solutions covered everything. Our business is now fully online and running smoothly.\"",
+      "text": "\"From web development to Amazon FBA guidance, Reliance Solution covered everything. Our business is now fully online and running smoothly.\"",
       "name": "Ali R."
     },
     {
@@ -120,7 +120,7 @@
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Reliance Solutions understood our needs from day one. Our new website and marketplace presence have brought in more customers and orders.\"",
+      "text": "\"Reliance Solution understood our needs from day one. Our new website and marketplace presence have brought in more customers and orders.\"",
       "name": "David P."
     },
     {
@@ -132,29 +132,29 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "Project Lead",
-      "job": "Director"
+      "name": "Mirza Khurram Aftab Baig",
+      "job": "Managing Director & Chief Executive Officer"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Web & Design",
-      "job": "Web Developer"
+      "name": "Dr. Hussain Roohullah Khurram Gillani",
+      "job": "Director Finance"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Marketplace Expert",
-      "job": "eBay & Amazon Specialist"
+      "name": "Engr. Waqas Ali Rao",
+      "job": "Director Operations"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Client Success",
-      "job": "Support & Operations"
+      "name": "Senior Associate",
+      "job": "Tax, Audit & Advisory"
     }
   ],
   "Contact": {
-    "address": "Your Office Address, City, State, Zip",
-    "phone": "+1 000 000 0000",
-    "email": "info@reliancesolutions.com",
+    "address": "6 No Chungi, Bosan Road, Multan, Punjab, Pakistan",
+    "phone": "+92-313-3330803 | +92-61-6220033",
+    "email": "reliancesolutionofficial@gmail.com",
     "facebook": "https://facebook.com/reliancesolutions",
     "twitter": "https://twitter.com/reliancesolutions",
     "youtube": "https://youtube.com/reliancesolutions"

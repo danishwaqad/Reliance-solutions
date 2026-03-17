@@ -20,10 +20,10 @@ export const Navigation = (props) => {
           <a className="navbar-brand page-scroll" href="#page-top">
             <img
               src="/img/reliance-icon.jpg"
-              alt="Reliance Solutions"
+              alt="Reliance Solution"
               className="navbar-brand-icon"
             />
-            Reliance Solutions
+            Reliance Solution
           </a>
         </div>
 
