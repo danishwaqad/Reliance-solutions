@@ -29,6 +29,14 @@ html {
   width: 100% !important;
   height: 100% !important;
   overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
 }
 *,
 *::before,

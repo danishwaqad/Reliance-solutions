@@ -1,18 +1,45 @@
-@media screen and (max-width: 400px) {
-  #features {
-    padding: 20px;
-    width: 111%;
-  }
+@media screen and (max-width: 768px) {
+  #features,
   #about,
   #services,
+  #portfolio,
   #testimonials,
   #team,
   #contact,
   #footer {
-    width: 111%;
+    width: 100%;
   }
 
-  #portfolio {
-    width: 110%;
+  #about .about-text,
+  #about .about-text h2,
+  #about .about-text h3,
+  #about .about-text p,
+  #about .about-text ul,
+  #services .service-desc,
+  #portfolio .section-title,
+  #testimonials .section-title,
+  #team .section-title,
+  #contact .section-title {
+    text-align: center;
+  }
+
+  #about .about-text p,
+  #about .about-text li,
+  #services .service-desc p,
+  #testimonials .testimonial-content p,
+  #contact .contact-item p {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #testimonials .testimonial {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #testimonials .testimonial-image {
+    margin-bottom: 8px;
   }
 }
