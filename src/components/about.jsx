@@ -14,8 +14,8 @@ export const About = (props) => {
               <h2>About Us</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
               <h3>Why Choose Us?</h3>
-              <div className="list-style">
-                <div className="col-lg-6 col-sm-6 col-xs-12">
+              <div className="row list-style about-lists">
+                <div className="col-xs-12 col-sm-6">
                   <ul>
                     {props.data
                       ? props.data.Why.map((d, i) => (
@@ -24,7 +24,7 @@ export const About = (props) => {
                       : "loading"}
                   </ul>
                 </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12">
+                <div className="col-xs-12 col-sm-6">
                   <ul>
                     {props.data
                       ? props.data.Why2.map((d, i) => (
