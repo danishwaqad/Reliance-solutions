@@ -250,6 +250,7 @@ a:focus,
 .intro {
   display: table;
   width: 100%;
+  min-height: 100vh;
   padding: 0;
   background: url(../img/intro-bg.jpg) center center no-repeat;
   background-color: var(--color-slate);
@@ -257,6 +258,7 @@ a:focus,
   -o-background-size: cover;
 }
 .intro .overlay {
+  min-height: 100vh;
   background: rgba(15, 23, 42, 0.65);
 }
 .intro h1 {
@@ -306,14 +308,53 @@ header .intro-text {
 }
 #features h3 {
   color: var(--color-slate);
+  margin-bottom: 2px;
 }
 #features p {
   color: var(--color-text-muted);
+  margin-top: -2px;
 }
 #features .col-xs-12,
 #features .col-sm-6,
 #features .col-md-3 {
   margin-bottom: 24px;
+}
+#features .feature-item h3 {
+  min-height: 52px;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+#features .feature-item p {
+  min-height: 64px;
+  margin: 0 auto;
+  max-width: 230px;
+  line-height: 1.5;
+}
+
+/* Desktop only: tighter spacing between heading and paragraph */
+@media (min-width: 992px) {
+  #features .feature-item h3 {
+    margin-bottom: -8px;
+    line-height: 1.05;
+  }
+  #features .feature-item p {
+    margin-top: -10px;
+    line-height: 1.35;
+  }
+}
+
+/* Prevent zig-zag float wrapping for 2-column tablet layout */
+@media (min-width: 768px) and (max-width: 991px) {
+  #features .feature-item:nth-child(2n + 1) {
+    clear: left;
+  }
+}
+
+/* Keep proper row starts in desktop 4-column layout */
+@media (min-width: 992px) {
+  #features .feature-item:nth-child(4n + 1) {
+    clear: left;
+  }
 }
 
 /* About Section */
@@ -350,11 +391,14 @@ header .intro-text {
 }
 #about img {
   width: 100%;
-  max-width: 520px;
+  max-width: none;
+  height: 360px;
+  object-fit: cover;
   margin-top: 10px;
   background: var(--color-white);
   box-shadow: var(--shadow-md);
   border-radius: 8px;
+  display: block;
 }
 #about p {
   line-height: 24px;
@@ -462,9 +506,33 @@ header .intro-text {
   background: var(--color-bg-section);
   scroll-margin-top: 85px;
 }
+#portfolio .portfolio-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  width: 100%;
+}
+#portfolio .portfolio-card {
+  width: 100%;
+}
 .portfolio-item {
-  margin: 1px -15px 0 -14px;
+  margin: 0;
   padding: 0;
+}
+.hover-bg {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.hover-bg > a {
+  display: block;
+  width: 100%;
+}
+.hover-bg img {
+  width: 100% !important;
+  height: 260px;
+  object-fit: cover;
+  display: block;
 }
 .hover-bg .hover-text {
   position: absolute;
@@ -494,6 +562,16 @@ header .intro-text {
 .hover-bg:hover .hover-text > h4 {
   opacity: 1;
   transform: translateY(0);
+}
+
+@media (max-width: 767px) {
+  #portfolio .portfolio-items {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .hover-bg img {
+    height: 230px;
+  }
 }
 
 /* Testimonials */
@@ -830,6 +908,7 @@ header .intro-text {
   }
   #about img {
     margin: 20px 0 10px;
+    height: 280px;
   }
   #about p {
     margin: 20px 0;
@@ -887,6 +966,10 @@ header .intro-text {
   #footer .footer-bg {
     padding-top: 44px;
   }
+  #features .feature-item h3,
+  #features .feature-item p {
+    min-height: 0;
+  }
 }
 
 @media (max-width: 480px) {
@@ -899,6 +982,9 @@ header .intro-text {
   }
   .intro h1 {
     font-size: 24px;
+  }
+  #about img {
+    height: 220px;
   }
   .intro p {
     font-size: 14px;
@@ -1177,8 +1263,12 @@ header .intro-text {
 }
 
 header .intro-text {
-  padding-top: clamp(118px, 16vw, 210px);
-  padding-bottom: clamp(72px, 10vw, 140px);
+  min-height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: clamp(138px, 18vw, 240px);
+  padding-bottom: clamp(92px, 12vw, 170px);
 }
 
 .intro h1 {
