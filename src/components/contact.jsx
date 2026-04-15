@@ -20,6 +20,20 @@ export const Contact = (props) => {
   // };
 
   const data = props.data || {};
+  const quickLinks = [
+    { label: "Features", path: "/features", sectionId: "features" },
+    { label: "About", path: "/about", sectionId: "about" },
+    { label: "Services", path: "/services", sectionId: "services" },
+    { label: "Gallery", path: "/gallery", sectionId: "portfolio" },
+    { label: "Contact", path: "/contact", sectionId: "contact" },
+  ];
+
+  const handleQuickLinkClick = (event, item) => {
+    event.preventDefault();
+    window.history.pushState({}, "", item.path);
+    window.dispatchEvent(new Event("locationchange"));
+  };
+
   return (
     <div>
       {/* Contact info only - no form (backend not connected) */}
@@ -51,17 +65,17 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={data.facebook || "#"} target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <a href={data.facebook || "https://facebook.com"} target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={data.twitter || "#"} target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                    <a href={data.twitter || "https://twitter.com"} target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                       <i className="fa fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={data.youtube || "#"} target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                    <a href={data.youtube || "https://youtube.com"} target="_blank" rel="noopener noreferrer" aria-label="YouTube">
                       <i className="fa fa-youtube"></i>
                     </a>
                   </li>
@@ -95,11 +109,16 @@ export const Contact = (props) => {
               <div className="col-md-2 footer-links">
                 <h4>Quick Links</h4>
                 <ul>
-                  <li><a href="#features">Features</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#services">Services</a></li>
-                  <li><a href="#portfolio">Gallery</a></li>
-                  <li><a href="#contact">Contact</a></li>
+                  {quickLinks.map((item) => (
+                    <li key={item.path}>
+                      <a
+                        href={item.path}
+                        onClick={(event) => handleQuickLinkClick(event, item)}
+                      >
+                        {item.label}
+                      </a>
+                    </li>
+                  ))}
                 </ul>
               </div>
               <div className="col-md-3 footer-contact">
@@ -111,9 +130,9 @@ export const Contact = (props) => {
               <div className="col-md-3 footer-social">
                 <h4>Follow Us</h4>
                 <ul>
-                  <li><a href={data.facebook || "#"} target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i className="fa fa-facebook"></i></a></li>
-                  <li><a href={data.twitter || "#"} target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i className="fa fa-twitter"></i></a></li>
-                  <li><a href={data.youtube || "#"} target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i className="fa fa-youtube"></i></a></li>
+                  <li><a href={data.facebook || "https://facebook.com"} target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i className="fa fa-facebook"></i></a></li>
+                  <li><a href={data.twitter || "https://twitter.com"} target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i className="fa fa-twitter"></i></a></li>
+                  <li><a href={data.youtube || "https://youtube.com"} target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i className="fa fa-youtube"></i></a></li>
                 </ul>
               </div>
             </div>

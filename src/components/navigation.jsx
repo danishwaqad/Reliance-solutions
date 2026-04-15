@@ -1,6 +1,38 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+
+const NAV_ITEMS = [
+  { label: "Home", path: "/", sectionId: "page-top" },
+  { label: "Features", path: "/features", sectionId: "features" },
+  { label: "About", path: "/about", sectionId: "about" },
+  { label: "Services", path: "/services", sectionId: "services" },
+  { label: "Gallery", path: "/gallery", sectionId: "portfolio" },
+  { label: "Testimonials", path: "/testimonials", sectionId: "testimonials" },
+  { label: "Team", path: "/team", sectionId: "team" },
+  { label: "Contact", path: "/contact", sectionId: "contact" },
+];
 
 export const Navigation = (props) => {
+  const getActiveFromPath = () => window.location.pathname || "/";
+  const [activePath, setActivePath] = useState(getActiveFromPath());
+
+  const handleNavClick = (event, item) => {
+    event.preventDefault();
+    window.history.pushState({}, "", item.path);
+    window.dispatchEvent(new Event("locationchange"));
+    setActivePath(item.path);
+  };
+
+  useEffect(() => {
+    const syncActivePath = () => setActivePath(getActiveFromPath());
+    window.addEventListener("locationchange", syncActivePath);
+    window.addEventListener("popstate", syncActivePath);
+    syncActivePath();
+    return () => {
+      window.removeEventListener("locationchange", syncActivePath);
+      window.removeEventListener("popstate", syncActivePath);
+    };
+  }, []);
+
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -17,7 +49,11 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
+          <a
+            className="navbar-brand page-scroll"
+            href="/"
+            onClick={(event) => handleNavClick(event, NAV_ITEMS[0])}
+          >
             <img
               src="/img/reliance-icon.jpg"
               alt="Reliance Solution"
@@ -32,41 +68,20 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
-            <li>
-              <a href="#features" className="page-scroll">
-                Features
-              </a>
-            </li>
-            <li>
-              <a href="#about" className="page-scroll">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#services" className="page-scroll">
-                Services
-              </a>
-            </li>
-            <li>
-              <a href="#portfolio" className="page-scroll">
-                Gallery
-              </a>
-            </li>
-            <li>
-              <a href="#testimonials" className="page-scroll">
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <a href="#team" className="page-scroll">
-                Team
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="page-scroll">
-                Contact
-              </a>
-            </li>
+            {NAV_ITEMS.map((item) => (
+              <li
+                key={item.label}
+                className={activePath === item.path ? "active" : ""}
+              >
+                <a
+                  href={item.path}
+                  className="page-scroll"
+                  onClick={(event) => handleNavClick(event, item)}
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

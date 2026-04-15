@@ -1,6 +1,12 @@
 import React from "react";
 
 export const Header = (props) => {
+  const handleLearnMore = (event) => {
+    event.preventDefault();
+    window.history.pushState({}, "", "/features");
+    window.dispatchEvent(new Event("locationchange"));
+  };
+
   return (
     <header id="header">
       <div className="intro">
@@ -14,8 +20,9 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
-                  href="#features"
+                  href="/features"
                   className="btn btn-custom btn-lg page-scroll"
+                  onClick={handleLearnMore}
                 >
                   Learn More
                 </a>{" "}
